@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  background-color: #eeeee8;
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  width: auto;
+}
+.main .navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.main .logoside {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+.main .logoside .logo {
+  color: #0e0e0e;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+.main .phonecall {
+  width: 200px;
+  float: left;
+  margin-left: 800px;
+  margin-top: 10px;
+}
+.main .phonecall img {
+  width: 20px;
+  height: 30px;
+  padding-top: 5px;
+}
+.main .phonecall .phonenumber {
+  align-items: center;
+  margin-left: 5px;
+  margin-top: -2px;
+  padding-right: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.main .headercontent {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #000;
+  position: flex;
+}
+.main .headercontent .left .headcontent {
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+.main .headercontent .left h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  margin-top: 9%;
+}
+.main .headercontent .rightform {
+  width: 450px;
+  height: 480px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 80px;
+  left: 700px;
+  box-shadow: none;
+  border-radius: 20px;
+}
+.main .headercontent .rightform .formhead {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+}
+.main .headercontent .rightform form input {
+  margin-left: 50px;
+  margin-top: 15px;
+  width: 300px;
+  height: 40px;
+  border: 0.02px solid #000;
+  border-radius: 20px;
+}
+.main .headercontent .rightform ::-moz-placeholder {
+  padding-left: 20px;
+}
+.main .headercontent .rightform ::placeholder {
+  padding-left: 20px;
+}
+.main .headercontent .rightform .formbtn {
+  margin-left: 20px;
+}
+.main .headercontent .rightform .formbtn button {
+  margin-left: 40px auto;
+  margin: 30px;
+  width: 150px;
+  height: 35px;
+  border: none;
+  background-color: #0077ff;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: none;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
