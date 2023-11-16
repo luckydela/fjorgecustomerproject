@@ -264,4 +264,44 @@
   font-size: 11px;
   margin-top: 0.5rem;
   text-align: start;
+}
+
+footer {
+  margin-top: 20px auto;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+footer .footerleft {
+  text-decoration: none;
+  color: #000;
+  width: 700px;
+}
+footer .footerleft .sociallogo {
+  margin-left: 20px;
+  font-size: 12px;
+}
+footer .footerleft .sociallogo a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+footer .footerleft .sociallogo a img {
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+footer .footerright {
+  float: left;
+  font-size: 12px;
+}
+footer .footerright a {
+  text-decoration: none;
+  color: #000;
+  padding-left: 10px;
 }/*# sourceMappingURL=index.css.map */
