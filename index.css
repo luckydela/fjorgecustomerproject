@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --transition: all 400ms ease;
+  --container-width-lg:75%;
+  --container-width-md:86%;
+  --container-width-sm:90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 .main {
   width: 100%;
   background-color: #eeeee8;
@@ -310,4 +325,17 @@ footer .footerright a {
   text-decoration: none;
   color: #000;
   padding-left: 10px;
+}
+
+/* ============MEDIA QUERIES (MEDIUM DEVICES)============= */
+@media screen and (max-width: 1024px) {
+  .main {
+    width: var(--container-width-md);
+  }
+}
+/* ============MEDIA QUERIES (SMALL DEVICES)============= */
+@media screen and (max-width: 600px) {
+  .main {
+    width: var(--container-width-sm);
+  }
 }/*# sourceMappingURL=index.css.map */

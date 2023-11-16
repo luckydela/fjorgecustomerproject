@@ -6,6 +6,22 @@
     box-sizing: border-box;
 }
 
+// handle responsiveness
+:root{
+    --transition: all 400ms ease;
+    --container-width-lg:75%;
+    --container-width-md:86%;
+    --container-width-sm:90%;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  
+
 // main header region 
 .main{
     width: 100%;
@@ -334,7 +350,7 @@
       }
     //   end of why social section
     // <=======================>
-    
+
     // thin line to seperate the footer from the main page
     .line {
         height: 1px; 
@@ -390,7 +406,27 @@
       }
     
     
+/* ============MEDIA QUERIES (MEDIUM DEVICES)============= */
 
+@media  screen and (max-width: 1024px) {
+  .main{
+    width: var(--container-width-md);
+  }
+//   section{
+//     margin-top: 6rem;
+//   }
+}
+
+/* ============MEDIA QUERIES (SMALL DEVICES)============= */
+
+@media  screen and (max-width: 600px) {
+  .main{
+    width: var(--container-width-sm);
+  }
+//   section > h2{
+//     margin-top: 2rem;
+//   }
+}
 
 
 
