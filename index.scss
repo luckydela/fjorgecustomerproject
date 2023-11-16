@@ -295,11 +295,9 @@
       
       .card {
         border-radius: 12px;
-        width: 350px;
-        height: 220px;
-        background: #f5f5f5;
+        width: 400px;
+        height: 250px;
         box-shadow: none;
-        border: none;
     
         img{
             width: 100%;
@@ -312,11 +310,13 @@
             width: 100px;
             height: 20px;
             border-radius: 10px;
-            font-size: 12px;
+            font-size: 18px;
             font-weight: 200;
             text-align: center;
             padding-left:8px ;
             padding-right: 8px;
+            font-family: 'Montserrat', sans-serif;
+
         }
     
       
@@ -325,8 +325,8 @@
       
       .information {
     
-        .title {
-            margin-top: 1rem;
+        .stitle {
+            margin-top: 1.2rem;
           font-size: 1.0rem;
           line-height: 1.25;
           font-weight: 100;
