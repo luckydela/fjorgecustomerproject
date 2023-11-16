@@ -266,6 +266,12 @@
   text-align: start;
 }
 
+.line {
+  height: 1px;
+  background-color: #000;
+  margin: 10px 0;
+}
+
 footer {
   margin-top: 20px auto;
   font-family: "Montserrat", sans-serif;
