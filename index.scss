@@ -61,6 +61,7 @@
         margin-top: -2px;
         padding-right: 20px;
         font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
     }
 
     }
@@ -94,6 +95,7 @@
 
 
     .rightform{
+        
         width: 450px;
         height: 480px;
         background-color: #ffffff;
@@ -106,30 +108,35 @@
 
         .formhead{
             margin-top: 50px;
-            margin-left: 50px;
+            margin-left: 75px;
             font-weight: 200;
             font-family: 'Montserrat', sans-serif;
 
         }
 
-        form input{
-            margin-left: 50px;
-            margin-top: 15px ;
-            width: 300px;
-            height: 40px;
-            border: 0.02px solid #000;
-            border-radius: 20px;
+        form{
+        margin-left: 75px;
+
            
-        }
+            input{
+               
+                margin-top: 15px ;
+                width: 300px;
+                height: 40px;
+                border: 0.02px solid #000;
+                border-radius: 20px;
+               
+            }
+
+        } 
 
         ::placeholder{
             padding-left: 20px;   
         }
         .formbtn{
-            margin-left: 20px;
+
             button{
-                margin-left: 40px auto;
-                margin: 30px;
+                margin: 20px;
                 width: 150px;
                 height: 35px;
                 border: none;
@@ -146,6 +153,10 @@
 
 
   }
+//   end of banner section
+// <==========================================>
+//   Connected to the tools you love section
+
 
   .tools-card{
    
@@ -280,7 +291,6 @@
     }
 
 
-
     .cards {
         display: flex;
         flex-wrap: wrap;
@@ -318,8 +328,6 @@
             font-family: 'Montserrat', sans-serif;
 
         }
-    
-      
         
       }
       
