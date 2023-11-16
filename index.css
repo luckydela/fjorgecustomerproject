@@ -231,7 +231,7 @@
 .socials .card {
   border-radius: 12px;
   width: 400px;
-  height: 250px;
+  height: 280px;
   box-shadow: none;
 }
 .socials .card img {
@@ -282,7 +282,7 @@ footer .footerleft {
 }
 footer .footerleft .sociallogo {
   margin-left: 20px;
-  font-size: 12px;
+  font-size: 13px;
 }
 footer .footerleft .sociallogo a {
   text-decoration: none;
@@ -298,7 +298,7 @@ footer .footerleft .sociallogo a img {
 }
 footer .footerright {
   float: left;
-  font-size: 12px;
+  font-size: 15px;
 }
 footer .footerright a {
   text-decoration: none;

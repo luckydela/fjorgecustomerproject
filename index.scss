@@ -270,8 +270,6 @@
 
 
 .socials{
-   
-
     .shead {
         margin-top: 50px ;
         text-align: center;
@@ -305,7 +303,7 @@
       .card {
         border-radius: 12px;
         width: 400px;
-        height: 250px;
+        height: 280px;
         box-shadow: none;
     
         img{
@@ -337,8 +335,7 @@
           font-size: 1.0rem;
           line-height: 1.25;
           font-weight: 100;
-          font-family: 'Montserrat', sans-serif;
-         
+          font-family: 'Montserrat', sans-serif;  
         }
       
         .info {
@@ -347,14 +344,15 @@
             font-weight: 100;
             font-size: 11px;
             margin-top: 0.5rem;
-            text-align:start;
-           
+            text-align:start;   
         }
       }
-      
       }
+    //   end of why social section
 
+      //<============>
     //   footer scss styles
+
       footer{
         margin-top: 20px auto;
         font-family: 'Montserrat', sans-serif;
@@ -369,7 +367,7 @@
             width: 700px;
             .sociallogo{
                 margin-left: 20px;
-                font-size: 12px;
+                font-size: 13px;
 
                 a{
                     text-decoration: none;
@@ -383,20 +381,14 @@
                         width: 15px;
                         height: 15px;
                         float: left;
-
-
                     }
                 }
-
             }
-           
         }
         .footerright{
             // position: absolute;
             float: left;
-            font-size: 12px;
-
-           
+            font-size: 15px;
             a{
                 text-decoration: none;
                 color: #000;
